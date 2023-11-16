@@ -1,0 +1,28 @@
+Zadatak 1
+
+provjeri ITM (Indeks tjelesne mase) Marka i Josipa i utvrdi čiji je veći.
+Neka piše Markov koeficijent mase je veći od Josipovog koeficijenta mase ili Josipov koeficijent mase je veći od Markovog koeficijenta mase.
+Koristite test podatke iz prvog zadatka, if else pristup i template string za console.log.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Zadatak 2
+
+Logical operators zadatak - zamislimo da želimo živjeti u zemlji u kojoj se priča engleski, koja ima manje od 50 m stanovnika i koja nije otok.
+
+Utvrdi da li Hrvatska ispunjava te uvjete i ako da ispiši : "Zemlja u kojoj želite živjeti je Hrvatska". Ako ne, onda ispiši : "Hrvatska nije za vas.".
+
+Koristite logičke operatore i if else petlju za rješenje zadatka.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+"fun" dio :D
+
+Predvidi rezultat ovih operacija bez unošenja u VSC ili konzolu (pa provjeri):
+
+"9" - "5"
+"19" - "13" + "17"
+"19" - "13" + 17
+"123" < 57
+5 + 6 + "4" + 9 - 4 - 2
