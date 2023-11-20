@@ -1,3 +1,5 @@
+"use strict";
+
 // Zadatak 1.
 
 const lovci = 7900;
@@ -18,42 +20,15 @@ console.log(
 
 // Zadatak 2.
 
-const svijet = 1e4;
-const hrvatska = 10;
-const kina = 3441;
-const usa = 332;
-const zemlja = "";
-
-const postotak = (brojIgraca, ukupnoIgraca) =>
-  (brojIgraca / ukupnoIgraca) * 100;
-
-const hrvatskaPostotak = postotak(hrvatska, svijet);
-const kinaPostotak = postotak(kina, svijet);
-const usaPostotak = postotak(usa, svijet);
-
-const ispis = (zemlja, populacija) => {
-  switch (zemlja) {
-    case "hrvatska":
-      console.log(
-        `${zemlja} ima ${populacija} igraca stolnog tenisa što je ${hrvatskaPostotak}% svijeta`
-      );
-      break;
-    case "kina":
-      console.log(
-        `${zemlja} ima ${populacija} igraca stolnog tenisa što je ${kinaPostotak}% svijeta`
-      );
-      break;
-    case "usa":
-      console.log(
-        `${zemlja} ima ${populacija} igraca stolnog tenisa što je ${usaPostotak}% svijeta`
-      );
-      break;
-    default:
-      console.error("Krivu ste zemlju upisali");
-  }
+const postotak = (populacija) => (populacija / 1e4) * 100;
+const stolniTenis = (zemlja, populacija) => {
+  const postotak2 = postotak(populacija);
+  console.log(
+    `${zemlja} ima ${populacija} igraca stolnog tenisa što je ${postotak2}% svijeta`
+  );
 };
 
-ispis("hrvatska", 10); // Može se unijeti bilo koja od tri zemlje.
+stolniTenis("hrvatska", 10);
 
 // Zadatak 3.
 
