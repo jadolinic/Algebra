@@ -9,6 +9,8 @@ const visinaJosip = Number(prompt("Unesi visinu Josipa"));
 const itmMarko = Math.round((masaMarko / visinaMarko) ** 2 * 10 + 1);
 const itmJosip = Math.round((masaJosip / visinaJosip) ** 2 * 10 + 1);
 
+console.log(itmMarko, itmJosip);
+
 const provjera = (x, y) =>
   x > y
     ? `Markov ITM od ${itmMarko} je veći od Josipovog koji je ${itmJosip} `
