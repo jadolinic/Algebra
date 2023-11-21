@@ -20,7 +20,7 @@ console.log(
 
 // Zadatak 2.
 
-const postotak = (populacija) => (populacija / 1e4) * 100;
+const postotak = (x) => (x / 1e4) * 100;
 const stolniTenis = (zemlja, populacija) => {
   const postotak2 = postotak(populacija);
   console.log(
