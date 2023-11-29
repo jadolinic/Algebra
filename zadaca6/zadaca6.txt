@@ -1,0 +1,36 @@
+Zadatak 1 
+
+Lista imena (do 5 komada), neka jedno ime bude vaše ime. napravite for petlju
+koja će za vaše ime ispisati "Ime je super" dok će ostala imena samo ispisat.
+
+Zadatak 2
+
+Petlja u petlji vježba. Napravi petlju koja će se ispisati 4 puta. Unutar te petlje
+složi podpetlju koja se bude izvrtila 6 pita. Prva petlja može ispisati brojeve 1-4.
+Druga petlja neka ispiše 5-10 brojeve...
+
+Zadatak 3
+
+Iz postojeće liste objekata koristeći ove neku od metoda listi izvadite limuzine u novu listu.
+Bonus zadatak : kako bi napisali funkciju koja će isfiltrirati aute proizvedene između 2016 i 2020?
+
+const auti = [
+  { ime: "Mercedes", kategorija: "limuzina", godinaProizvodnje: 2014 },
+  { ime: "Ford", kategorija: "karavan", godinaProizvodnje: 2015 },
+  { ime: "BMW", kategorija: "coupe", godinaProizvodnje: 2010 },
+  { ime: "Volvo", kategorija: "SUV", godinaProizvodnje: 2011 },
+  { ime: "Peugeot", kategorija: "limuzina", godinaProizvodnje: 2018 },
+  { ime: "Range Rover", kategorija: "jeep", godinaProizvodnje: 2017 },
+];
+
+/*Zadatak 4
+ 
+Imamo 2 liste, listu računa i listu napojnica. 
+Trebamo koristeći funkciju i for petlju u toj funkciji napraviti izračun sume.
+I onda koristeći tu funkciju napraviti izračun sume za svaku listu.
+
+Rezultat trebamo zapisati u nove liste.
+
+hint 1 : članove obje liste u funkciju ubacite putem pripadajućih parametara.
+hint 2 : Postavite početno stanje izračuna  na 0 i tu listu sa sumom vratite u returnu te funkcije.
+ */
