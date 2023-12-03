@@ -1,0 +1,79 @@
+Zadatak 1 
+
+U HTML-u kreirajte div element sa id-em "info" (<div id="info"></div>). Spremite taj id u JS varijablu info. Nakon toga prođite kroz listu objekata nekom od metoda listi izvucite name i age i ispišite ih u
+nekom div ili p elementu unutar div-a sa id-em "info".
+
+Imate listu objekata:
+
+let data = [
+  {
+    name: "Marko",
+    age: "30",
+  },
+  {
+    name: "Luka",
+    age: "32",
+  },
+  {
+    name: "Ivan",
+    age: "24",
+  },
+  {
+    name: "Stjepan",
+    age: "33",
+  },
+  {
+    name: "Domagoj",
+    age: "22",
+  },
+  {
+    name: "Kristijan",
+    age: "25",
+  },
+];
+
+
+
+
+Zadatak 2
+
+Kreiraj element u HTML-u (<div id="circle">Click</div>). Nakon toga kreiraj varijablu u koju ćeš spremiti taj div. Potom složi eventListener funkciju koja će na klik promijeniti neku stilizaciju
+elementa (koju god smislite).
+
+Možeš upotrijebiti ovaj CSS:
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background: conic-gradient(at bottom left, deeppink, cyan);
+  border-radius: 100px;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+
+
+Zadatak 3
+
+Kreiraj button unutar HTML-a <button>Klikni me</button>. Kreiraj JS skriptu koja će na klik buttona mijenjati boje pozadine HTML body-a iz liste boja:
+const boje = ["Red", "Blue", "Yellow", "Green", "Orange", "Purple"];
+
