@@ -18,7 +18,8 @@ const smanjivanje = () => {
 document.getElementById("povecaj").addEventListener("click", povecanje);
 document.getElementById("smanji").addEventListener("click", smanjivanje);
 
-/* Zadatak 2. Napravite funkciju pod nazivom suma koja prima 2 parametra, prvi neka bude lista brojeva a drugi callback funkcija koja se primjenjuje na svaki element liste (unutar funkcije 'suma').
+/* Zadatak 2. Napravite funkciju pod nazivom suma koja prima 2 parametra, prvi neka bude lista brojeva 
+a drugi callback funkcija koja se primjenjuje na svaki element liste (unutar funkcije 'suma').
 Neka suma vrati novu listu popunjenu brojevima iz liste pomnoženima sa 2. */
 
 const suma = (arr, cb) => arr.map(cb);
