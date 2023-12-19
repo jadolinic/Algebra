@@ -27,3 +27,8 @@ const umnozak = (broj) => broj ** 2;
 const nizBrojeva = [1, 2, 3, 4, 5];
 
 console.log(nizBrojeva, suma(nizBrojeva, umnozak));
+
+let text = "you ugly peace of shit";
+const utterance = new SpeechSynthesisUtterance(text);
+
+window.speechSynthesis.speak(utterance);
