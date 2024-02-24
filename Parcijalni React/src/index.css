@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("../src/assets/background3.jpeg") fixed no-repeat center/cover;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  max-height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+}
+
+label {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn-search {
+  padding: 0.8rem 2rem;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+  background: conic-gradient(from 0.5turn at bottom center, lightblue, white);
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  transition: background 3s ease;
+
+  &:hover {
+    background: conic-gradient(from -90deg at top left, black, white);
+  }
+}
+
+.btn-reset {
+  display: block;
+  width: 100%;
+  border: 1px solid aliceblue;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background: conic-gradient(from 0.5turn at bottom center, lightblue, white);
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  transition: background 3s ease;
+
+  &:hover {
+    background: conic-gradient(from -90deg at top left, black, white);
+  }
+}
+
+/* Ispis korisnika sa njegovim repozitorijima */
+
+.ispis {
+  background-color: #ffffff05;
+  backdrop-filter: blur(50px);
+  padding: 3rem;
+  border-radius: 25px;
+  margin-bottom: 2rem;
+}
+
+.user_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.info_top {
+  display: flex;
+  font-size: 5rem;
+  align-items: start;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+.info_top img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.info_bottom {
+  font-size: 1.5rem;
+}
+
+.info_bottom p {
+  padding-bottom: 2rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.info_bottom span {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  color: black;
+}
+
+/* Lista repozitorija */
+
+.lista-repozitorija {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+  max-height: 100%;
+}
+
+.repozitorij {
+  border: 1px solid #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+}

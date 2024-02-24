@@ -1,10 +1,18 @@
-import data from "./data/data.json";
+import { useEffect, useState } from "react";
 
 const App = () => {
+  const [user, setUser] = useState([]);
+
+  useEffect(() => {
+    fetch("./data/data.json")
+      .then((res) => res.json())
+      .then((data) => setUser(data));
+  }, [imena]);
+
   return (
     <>
       <div>
-        {data.map((val, index) => {
+        {user.map((val, index) => {
           return (
             <p key={index}>
               {index} {val.ime} {val.prezime}
